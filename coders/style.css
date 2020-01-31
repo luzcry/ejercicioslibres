@@ -1,0 +1,76 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    width: 70%;
+    margin-left: 10px;
+
+}
+
+img {
+    width: 240px;
+    height: 220px;
+/*box shadow coloca una sombra, en este caso en las imagenes*/
+    box-shadow: 3px 3px 5px #999;
+    /*fondo oscurecido usando un gradiente overlay de imagen*/
+
+
+}
+.filter {
+  background-image:linear-gradient(rgba(1, 0, 0, 3),rgba(1,0,0, 4));
+  background-position: center center;
+  background-size: cover;
+  padding: 100px 50px;
+  text-align: end;
+  box-shadow: 3px 3px 6px #999;
+
+  }
+#ada {
+    background-image: url(img/ada.jpg);
+} 
+#barbara {
+    background-image: url(img/barbaraliskov.jpg);
+}
+#maryj {
+    background-image: url(img/maryjackson.jpg); }
+#grace {
+        background-image: url(img/gracehooper.jpg); }
+ #maryW {
+            
+    background-image: url(img/MaryAllenWilkes.jpeg);
+        }
+h2 {
+    font-family: 'Slabo 27px', serif;
+    margin: 2px;
+}
+
+#line {
+    background-color: black;
+    width: 150px;
+    height: 6px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.textOnTop {
+    position: absolute;
+    top: 240px;
+    font-size: 20px;
+    font-family: 'Song Myung', serif;
+    color: rgb(255, 255, 255);
+    padding-left: 100px;
+}
+
+
+.textOnTop2 {
+    position: absolute;
+    top: 494px;
+    font-size: 20px;
+    font-family: 'Song Myung', serif;
+    color: rgb(253, 244, 244);
+    padding-left: 110px;
+}
+/*font-family: 'Slabo 27px', serif;
+font-family: 'Song Myung', serif;
+<img src="img/ada.jpg" alt="ada">*/
