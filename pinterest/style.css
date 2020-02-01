@@ -1,5 +1,17 @@
-.box{
-    margin: 100px auto;
+  .header {
+      display: grid;
+      grid-auto-flow: column;
+  }
+
+  .searchBox{
     width: 300px;
-    height: 50px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative; 
+    display: flex;
+    
+  }
+
+  .icon {
+      
   }
