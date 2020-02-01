@@ -1,6 +1,7 @@
   .header {
       display: grid;
       grid-template-columns: 10% 1fr 20%;
+
      }
 
   .searchBox{
@@ -15,10 +16,12 @@
     -moz-border-radius: 9px 9px 9px 9px;
     -webkit-border-radius: 9px 9px 9px 9px;
     border: 2px solid #e7e9ec;
+
+    
     
   }
  input {
-     width: 100%;
+     width: 85%;
      border-style: none;
      outline: none;
      background-color: rgb(231, 231, 231);
@@ -26,25 +29,36 @@
     -moz-border-radius: 9px 9px 9px 9px;
     -webkit-border-radius: 9px 9px 9px 9px;
     margin: 5px;
+    padding-left: 3px;
  }
 
  .icons {
      display: flex;
      justify-content: space-evenly;
      padding-left: 6px;
-     padding-top: 8px;
+     padding-top: 5px;
     
  }
 p {
     margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: bold;
+    font-family: serif;
 }
  svg {
-    margin-left: 2px;
+    margin-right: 9px;
     margin-top: 7px;
+    margin-left: 9px;
  }
 
  img {
-     padding-left: 20px;
-     width: 60px;
+     padding-left: 40px;
+     width: 50px;
+ }
+
+ .line {
+     border: rgb(189, 183, 183) 0.5px solid;
+     width: 100%;
+     margin-top: 10px;
  }
