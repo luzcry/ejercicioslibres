@@ -50,7 +50,7 @@ p {
     margin-left: 12px;
  }
 
- img {
+ #pint {
      padding-left: 40px;
      width: 50px;
  }
@@ -115,4 +115,17 @@ p {
 }
 #tattoos {
     background-color: #CC6697;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+
+}
+
+.post{
+    width: 100%;
+    border-radius: 20px;
+
 }
