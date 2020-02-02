@@ -1,3 +1,6 @@
+body {
+   background-color:  #fab696;
+}
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,6 +9,8 @@
     grid-column-gap: 40px;
     width: 70%;
     margin-left: 10px;
+    
+
 }
 h2 {
     font-family: 'Slabo 27px', serif;
@@ -15,7 +20,6 @@ h2 {
 p {
     font-size: 20px;
     font-family: 'Song Myung', serif;
-    color: rgb(26, 101, 187);
     text-align: end;
     padding: 0;
     position: relative;
@@ -36,30 +40,55 @@ p {
 
 
 #line {
-    background-color: rgb(54, 62, 136);
+    background-color: #2d334a;
     width: 146px;
     height: 6px;
     margin-bottom: 20px;
     margin-top: 5px;
 }
 
-
+.window {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+    border: rgb(240, 240, 240) 1px solid;
+    width: 330px;
+    height: 400px;
+    background-color: #fbe3b9;
+   
+}
+h3{
+    color: black;
+}
 #ada {
     background-image: url(img/ada.jpg);
+    color: #faf5e4;
 } 
 #maryW {
     background-image: url(img/MaryAllenWilkes.jpeg);
+    color: #faf5e4;
 }
 #katie {
     background-image: url(img/katiebouman.jpg);
+    color: #faf5e4;
 }
 #maryJ {
-    background-image: url(img/maryjackson.jpg); }
+    background-image: url(img/maryjackson.jpg); 
+    color: #faf5e4;
+}
 #grace {
-        background-image: url(img/gracehooper.jpg); }
+        background-image: url(img/gracehooper.jpg);
+        color: #fdede5;
+        
+     }
  #maryW {   
     background-image: url(img/MaryAllenWilkes.jpeg);
         }
 #margaret {
             background-image: url(img/MargaretHamilton.jpg);
+            color: #faf5e4;
                 }
+#user {
+    padding-left: 80px;
+    
+}
