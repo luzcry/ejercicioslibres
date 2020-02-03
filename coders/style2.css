@@ -1,5 +1,5 @@
 body {
-   background-color:  #fab696;
+   background-color:  #f5eae5;
 }
 .container {
     display: grid;
@@ -13,8 +13,9 @@ body {
 
 }
 h2 {
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Dancing Script', cursive;
     margin: 2px;
+    font-size: 40px;
 }
 
 p {
@@ -23,7 +24,7 @@ p {
     text-align: end;
     padding: 0;
     position: relative;
-    top: 100px;
+    top: 80px;
     left: 50px;
     margin: 0;
         }
@@ -38,10 +39,19 @@ p {
   
 }
 
+.color {
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;;
+    padding: 0;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    margin: 0;
 
+}
 #line {
-    background-color: #2d334a;
-    width: 146px;
+    background-color: #8995c4;
+    width: 208px;
     height: 6px;
     margin-bottom: 20px;
     margin-top: 5px;
@@ -50,15 +60,19 @@ p {
 .window {
     position: fixed;
     right: 0px;
-    top: 100px;
+    top: 150px;
     border: rgb(240, 240, 240) 1px solid;
     width: 330px;
-    height: 400px;
-    background-color: #fbe3b9;
-   
+    height: 270px;
+    background-color: #8995c4;
 }
+   
 h3{
-    color: black;
+    margin-top: 10px;
+    color: rgb(230, 234, 247);
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
 }
 #ada {
     background-image: url(img/ada.jpg);
@@ -88,7 +102,12 @@ h3{
             background-image: url(img/MargaretHamilton.jpg);
             color: #faf5e4;
                 }
-#user {
+.user {
     padding-left: 80px;
+    padding-top: 10px;
+    margin-top: 20px;
     
 }
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Amatic SC', cursive;*/
