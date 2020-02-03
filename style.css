@@ -13,5 +13,17 @@ body {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+h1 {
+    color: rgb(5, 76, 207);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0em;
+    
+}
+p {
+    color: rgb(52, 112, 241);
+    font-size: 30px;
 }
